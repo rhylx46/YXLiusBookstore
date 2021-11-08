@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YXLiusBookstore", "YXLiusBookstore\YXLiusBookstore.csproj", "{B94BE0FB-4B66-4F6E-B385-09E5BCA9AFDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YXLiusBookstore", "YXLiusBookstore\YXLiusBookstore.csproj", "{B94BE0FB-4B66-4F6E-B385-09E5BCA9AFDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YXLiusBookstore.DataAccess", "YXLiusBookstore.DataAccess\YXLiusBookstore.DataAccess.csproj", "{3ED26BA9-C66C-45EE-9266-940A98B917A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YXLiusBookstore.DataAccess", "YXLiusBookstore.DataAccess\YXLiusBookstore.DataAccess.csproj", "{3ED26BA9-C66C-45EE-9266-940A98B917A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YXLiusBookstore.Models", "YXLiusBookstore.Models\YXLiusBookstore.Models.csproj", "{8A442275-F6F7-4AA4-9970-A697FCF82A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YXLiusBookstore.Models", "YXLiusBookstore.Models\YXLiusBookstore.Models.csproj", "{8A442275-F6F7-4AA4-9970-A697FCF82A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YXLiusBookstore.Utility", "YXLiusBookstore.Utility\YXLiusBookstore.Utility.csproj", "{5083A7E0-44C8-4122-8142-B6CB6C6AE352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YXLiusBookstore.Utility", "YXLiusBookstore.Utility\YXLiusBookstore.Utility.csproj", "{5083A7E0-44C8-4122-8142-B6CB6C6AE352}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -16,6 +16,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Folder Include="Data\" />
+	</ItemGroup>	
+	
   <ItemGroup>
     <ProjectReference Include="..\YXLiusBookstore.Models\YXLiusBookstore.Models.csproj" />
     <ProjectReference Include="..\YXLiusBookstore.Utility\YXLiusBookstore.Utility.csproj" />

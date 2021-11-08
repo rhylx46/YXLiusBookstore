@@ -1,0 +1,21 @@
+2021 11/08
+
+12:07pm - Created the DB in project YXLiusBookstore, error alert!
+12:08pm - Created the DB under project YXLiusBookstore.DataAccess project successfully.
+12:10pm - 20211108170509 is the new migration file name entry.
+12:16pm - Dived into the SQL Server Object Explorer, and found all my tables added through the entityMigration.cs
+12:18pm - It can be run successfully.
+12:23pm - Added a Category class into the Models project. And used it to add a new table.
+12:26pm - The new migration file 20211108172542 is empty.
+12:39pm - The class Category wasn't set public, so it was inacessable in the DbContext file.
+12:45pm - Deleted the old migration file, add add the category to Db again.
+05:01pm - Updated the database, now the catogory table is displayed on the sql server.
+05:16pm - Added a Repository folder and an interface folder inside it.
+05:23pm - Added an interface IRepository.cs file inside IRepository folder. And added CRUD methods.
+05:30pm - Built a Repository.cs class.
+05:31pm - Used the potential fixes to add content in this class.
+05:36pm - Added constructors and Dependency Injection.
+05:40pm - Added CategoryRepository class and ICategoryRepository interface.
+05:46pm - Added Update method in ICategoryRepository interface
+05:55pm - Added Upadate method in the class as well.
+
