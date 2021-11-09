@@ -11,8 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-//using YXLiusBookstore.Data;
 using YXLiusBookstore.DataAccess.Data;
+using YXLiusBookstore.DataAccess.Repository;
+using YXLiusBookstore.DataAccess.Repository.IRepository;
 
 namespace YXLiusBookstore
 {
@@ -35,6 +36,7 @@ namespace YXLiusBookstore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

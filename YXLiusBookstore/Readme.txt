@@ -18,4 +18,14 @@
 05:40pm - Added CategoryRepository class and ICategoryRepository interface.
 05:46pm - Added Update method in ICategoryRepository interface
 05:55pm - Added Upadate method in the class as well.
+06:00pm - Created a new interface ISP_Call.
+06:06pm - Installed the Dapper package.
+06:14pm - Completed the ISP_Call interface.
+06:15pm - Built the SP_Call class, and used the potential fixes again.
+06:17pm - Added DI and constructor in the class.
+06:40pm - Changed the implementation of the interface.
+06:41pm - Added IUnitOfWork interface.
+06:48pm - Completed the UnitOfWork class.
+07:02pm - Modified the Startup.cs, but there is an error:"There is no implici reference conversion from class to interface".
+07:09pm - Forgot the implement of interface in class. Now all errors are gone!
 
