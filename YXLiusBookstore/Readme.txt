@@ -29,3 +29,14 @@
 07:02pm - Modified the Startup.cs, but there is an error:"There is no implici reference conversion from class to interface".
 07:09pm - Forgot the implement of interface in class. Now all errors are gone!
 
+2021 11/10
+
+09:17am - Changed Repository.cs, and built it again. 4 succeeded!
+09:42am - Added CategoryController.
+09:45am - Added a Category folder inside Views.
+09:47am - Built an Index view.
+09:50am - Copied the html code into the index.cshtml.
+09:51am - Built it again. Ready to run it.
+10:08am - Forgot to change the _Layout.cshtml. Now it can run successfully!
+10:12am - Moved the Category to the dropdown menu.
+
