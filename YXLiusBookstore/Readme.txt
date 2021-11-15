@@ -79,3 +79,8 @@
 10:12am - Moved the Category to the dropdown menu.
 10:34am - Added the JS file into the js folder.
 10:35am - It works, but no category data inside for now.
+
+2021 11/15
+11:20am - Added Upsert.cshtml.
+11:30am - Created a view for Upsert.
+11:31am - Created a Button partial view.
