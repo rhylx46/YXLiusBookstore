@@ -98,3 +98,5 @@
 9:40am - Added it to the UnitOfWork interface as well.
 9:46am - Added CoverType to migration. 20211117144605.
 9:49am - Updated the Database. 
+9:58am - Added CoverTypeController.
+
