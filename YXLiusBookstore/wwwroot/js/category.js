@@ -38,11 +38,11 @@ function Delete(url) {
         icon: "waring",
         buttons: true,
         dangerMode: true
-    }).then((willDelete)) => {
-        if (willDelte) {
+    }).then((willDelete) => {
+        if (willDelete) {
             $.ajax({
                 type: "DELETE",
-                url: url;
+                url: url,
                 success: function (data) {
                     if (data.sucess) {
                         toastr.success(data.message);

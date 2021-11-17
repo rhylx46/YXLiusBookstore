@@ -84,3 +84,7 @@
 11:20am - Added Upsert.cshtml.
 11:30am - Created a view for Upsert.
 11:31am - Created a Button partial view.
+02:25pm - Added a void Save method in IUnitOfWork.cs. Now the 3 errors are gone.
+
+2021 11/16
+10:40pm - In Upsert.cshtml, line 12, shouldn't the code be: Model.Id != 0, instead of Model.Id != null? (slide 17)
