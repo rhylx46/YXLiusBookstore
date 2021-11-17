@@ -104,5 +104,8 @@
 10:14am - Error occured when I tried to create a new cover type.
 10:45am - All bugs fixed. Edited the upsert.cshtml, and re-added the migration files. Now everthing works fine!!
 03:00pm - Added Product.cs.
+03:04pm - Added Products to ApplicationDbContext.cs.
+03:05pm - Used PM to add product to the database and updated it at 20211117200416.
+03:10pm - Added Validation to Product(Title, ISBN, Author).
 
 
