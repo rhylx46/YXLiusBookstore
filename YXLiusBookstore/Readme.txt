@@ -102,4 +102,7 @@
 10:04am - Added coverType.js
 10:08am - Added CoverType to the layout. And let's run it for testing.
 10:14am - Error occured when I tried to create a new cover type.
+10:45am - All bugs fixed. Edited the upsert.cshtml, and re-added the migration files. Now everthing works fine!!
+03:00pm - Added Product.cs.
+
 
