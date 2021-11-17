@@ -88,3 +88,7 @@
 
 2021 11/16
 10:40pm - In Upsert.cshtml, line 12, shouldn't the code be: Model.Id != 0, instead of Model.Id != null? (slide 17)
+
+2021 11/17
+9:26am - Started to build CoverType CRUD, same thing as the category CRUD.
+9:27am - Added CoverType.cs.
