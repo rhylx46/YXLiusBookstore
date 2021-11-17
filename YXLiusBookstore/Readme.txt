@@ -92,3 +92,9 @@
 2021 11/17
 9:26am - Started to build CoverType CRUD, same thing as the category CRUD.
 9:27am - Added CoverType.cs.
+9:33am - Added CoverTypeRepository.cs.
+9:36am - Added the CoverTypeRepository interface.
+9:39am - Added CoverType to the UnitOfWork.
+9:40am - Added it to the UnitOfWork interface as well.
+9:46am - Added CoverType to migration. 20211117144605.
+9:49am - Updated the Database. 
