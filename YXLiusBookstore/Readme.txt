@@ -107,5 +107,7 @@
 03:04pm - Added Products to ApplicationDbContext.cs.
 03:05pm - Used PM to add product to the database and updated it at 20211117200416.
 03:10pm - Added Validation to Product(Title, ISBN, Author).
-
+03:20pm - Added ProductRepository.cs, changed Name to objFromDb.Title = product.Title at line 24.
+03:47pm - Added ProductRepository and its interface to Repository. But an error ocurred. The name "_db" does not exist in the current context.
+03:53pm - Fixed the silly bug by move the update method to ProductRepository.cs.
 
