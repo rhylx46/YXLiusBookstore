@@ -119,3 +119,7 @@
 11:33am - Added the API call to include the Category and CoverType properties.
 11:44am - Added the IndexView to Product.
 11:49am - Added a product.js. Changed all url to Product.
+11:52am - Add the Product page to the _Layout.cshtml.
+11:53am - Ready to run!
+11:54am - There is an exception...
+12:04am - Added Upsert view.
