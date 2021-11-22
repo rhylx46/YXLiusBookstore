@@ -111,3 +111,5 @@
 03:47pm - Added ProductRepository and its interface to Repository. But an error ocurred. The name "_db" does not exist in the current context.
 03:53pm - Fixed the silly bug by move the update method to ProductRepository.cs.
 
+2021/11/22
+11:07am - Added ProductsController.
