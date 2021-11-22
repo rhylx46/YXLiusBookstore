@@ -111,6 +111,8 @@
 03:47pm - Added ProductRepository and its interface to Repository. But an error ocurred. The name "_db" does not exist in the current context.
 03:53pm - Fixed the silly bug by move the update method to ProductRepository.cs.
 
+It took me about 3 hours in total.
+
 2021/11/22
 11:07am - Added ProductsController.
 11:10am - Installed the Microsoft.AspNetCore.Mvc.ViewFeatures package.
@@ -123,3 +125,11 @@
 11:53am - Ready to run!
 11:54am - There is an exception...
 12:04am - Added Upsert view.
+12:15am - Here is the exception message:
+System.InvalidOperationException: 'An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation ' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.'
+If I enterer continue, this will occur:
+DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+
+Is this related to the DB migration?
+
+It took me about 1 hour in total.
