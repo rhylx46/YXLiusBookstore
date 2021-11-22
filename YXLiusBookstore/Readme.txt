@@ -115,3 +115,5 @@
 11:07am - Added ProductsController.
 11:10am - Installed the Microsoft.AspNetCore.Mvc.ViewFeatures package.
 11:13am - Added Product ViewModel.
+11:24am - Updated ProductController.
+11:33am - Added the API call to include the Category and CoverType properties.
