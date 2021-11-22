@@ -117,3 +117,5 @@
 11:13am - Added Product ViewModel.
 11:24am - Updated ProductController.
 11:33am - Added the API call to include the Category and CoverType properties.
+11:44am - Added the IndexView to Product.
+11:49am - Added a product.js. Changed all url to Product.
