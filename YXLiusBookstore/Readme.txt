@@ -113,3 +113,5 @@
 
 2021/11/22
 11:07am - Added ProductsController.
+11:10am - Installed the Microsoft.AspNetCore.Mvc.ViewFeatures package.
+11:13am - Added Product ViewModel.
