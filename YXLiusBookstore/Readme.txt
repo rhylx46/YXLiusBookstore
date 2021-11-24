@@ -132,4 +132,8 @@ DataTables warning: table id=tblData - Ajax error. For more information about th
 
 Is this related to the DB migration?
 
+12:26am - Deleted AddCoverType folder under the migration folder, and added it again, then update the database. Still the exception.
+
 It took me about 1 hour in total.
+
+2021 11/24
