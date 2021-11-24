@@ -137,3 +137,5 @@ Is this related to the DB migration?
 It took me about 1 hour in total.
 
 2021 11/24
+
+10:20am - Added a rich textbox.

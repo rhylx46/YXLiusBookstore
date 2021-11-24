@@ -1,4 +1,4 @@
-﻿@model  YXLiusBookstore.Models.ViewModels.ProductVM
+﻿@model YXLiusBookstore.Models.ViewModels.ProductVM
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -114,5 +114,27 @@
 </form>
 
 @section Scripts {
+
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/jluh2i36qo7n0obvd4c7vi97vazegbeaxx71qc3ikjeiaxql/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+
+        });
+
+        function validateInput() {
+            if (document.getElementById("uploadBox").value = "") {
+                swal("Error", "Please select an image", "error");
+                return false;
+            }
+
+            return true;
+        }
+
+    </script>
+
+
 }

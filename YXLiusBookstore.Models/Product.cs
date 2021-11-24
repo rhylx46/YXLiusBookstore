@@ -31,7 +31,7 @@ namespace YXLiusBookstore.Models
 
         [Required]
         public int CoverTypeId { get; set; }
-        [ForeignKey("CoverTypeId")]
+        [ForeignKey("CategoryId")]
         public CoverType CoverType { get; set; }
     }
 }

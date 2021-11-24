@@ -359,7 +359,7 @@ namespace YXLiusBookstore.DataAccess.Migrations
 
                     b.HasOne("YXLiusBookstore.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CoverTypeId")
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
