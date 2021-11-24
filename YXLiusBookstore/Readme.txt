@@ -139,3 +139,6 @@ It took me about 1 hour in total.
 2021 11/24
 
 10:20am - Added a rich textbox.
+10:24am - Now the Create new product description area changed.
+10:25am - Added the images/products folder and subfolder.
+10:32am - Added the HttpPost Action to the ProductController. 
