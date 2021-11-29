@@ -22,16 +22,23 @@ namespace YXLiusBookstore.Models
         [Required]
         [Range(1, 10000)]
         public double ListPrice { get; set; }
-        public string ImageURL { get; set; }
-
+        [Required]
+        [Range(1, 10000)]
+        public double Price { get; set; }
+        [Required]
+        [Range(1, 10000)]
+        public double Price50 { get; set; }
+        [Required]
+        [Range(1, 10000)]
+        public double Price100 { get; set; }
+        public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
-
         [Required]
         public int CoverTypeId { get; set; }
-        [ForeignKey("CategoryId")]
+        [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
     }
 }
