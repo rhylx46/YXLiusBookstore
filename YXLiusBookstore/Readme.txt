@@ -150,3 +150,4 @@ It took me about 1 hour in total.
 04:57pm - Changed the ProductController.
 05:00pm - Ran it. And there are errors!
 05:04pm - Fixed the errors in ProductRepository. And ran it again. Still exception...
+05:09pm - Updated Repository.
