@@ -142,3 +142,11 @@ It took me about 1 hour in total.
 10:24am - Now the Create new product description area changed.
 10:25am - Added the images/products folder and subfolder.
 10:32am - Added the HttpPost Action to the ProductController. 
+
+
+2021 11/29
+
+04:55pm - Changed the Product.cs.
+04:57pm - Changed the ProductController.
+05:00pm - Ran it. And there are errors!
+05:04pm - Fixed the errors in ProductRepository. And ran it again. Still exception...
