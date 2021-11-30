@@ -144,10 +144,16 @@ It took me about 1 hour in total.
 10:32am - Added the HttpPost Action to the ProductController. 
 
 
-2021 11/29
+2021/11/29
 
 04:55pm - Changed the Product.cs.
 04:57pm - Changed the ProductController.
 05:00pm - Ran it. And there are errors!
 05:04pm - Fixed the errors in ProductRepository. And ran it again. Still exception...
 05:09pm - Updated Repository.
+05:11pm - Ran it, and still exception...
+
+2021/11/30
+
+04:42pm - DataTables warning: table id=tblData - Requested unknown parameter 'category.Name' for row 0, column 4. For more information about this error, please see http://datatables.net/tn/4
+

@@ -10,8 +10,8 @@ using YXLiusBookstore.DataAccess.Data;
 namespace YXLiusBookstore.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211117200416_addProductToDb")]
-    partial class addProductToDb
+    [Migration("20211130213738_AddValidationToProduct")]
+    partial class AddValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -263,6 +263,7 @@ namespace YXLiusBookstore.DataAccess.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Author")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("CategoryId")
@@ -275,15 +276,26 @@ namespace YXLiusBookstore.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageURL")
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ListPrice")
                         .HasColumnType("float");
 
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
+                        .HasColumnType("float");
+
                     b.Property<string>("Title")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

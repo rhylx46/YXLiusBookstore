@@ -10,8 +10,8 @@ using YXLiusBookstore.DataAccess.Data;
 namespace YXLiusBookstore.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211117200948_addValidationToProduct")]
-    partial class addValidationToProduct
+    [Migration("20211130213407_AddCoverTypeToDb")]
+    partial class AddCoverTypeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -279,10 +279,19 @@ namespace YXLiusBookstore.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageURL")
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ListPrice")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
                         .HasColumnType("float");
 
                     b.Property<string>("Title")
@@ -359,7 +368,7 @@ namespace YXLiusBookstore.DataAccess.Migrations
 
                     b.HasOne("YXLiusBookstore.Models.CoverType", "CoverType")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("CoverTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
