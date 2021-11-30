@@ -171,3 +171,4 @@ It took me about 1 hour in total.
 05:49pm - OK... It is category.name, in lowercase, I can believe I fixed it...
 05:59om - Now I changed the home page view for customer area.
 06:00pm - Now I can added image and make display in the home page.
+06:06pm - Tried to add back what I deleted in the ProductController.cs. And tested the delete function again. Now this time has no exception!! 
