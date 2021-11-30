@@ -169,4 +169,5 @@ It took me about 1 hour in total.
 
 05:27pm - Still trying to figure out Why there is no category.Name in product.js ??
 05:49pm - OK... It is category.name, in lowercase, I can believe I fixed it...
+05:59om - Now I changed the home page view for customer area.
 06:00pm - Now I can added image and make display in the home page.
