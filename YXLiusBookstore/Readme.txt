@@ -156,4 +156,17 @@ It took me about 1 hour in total.
 2021/11/30
 
 04:42pm - DataTables warning: table id=tblData - Requested unknown parameter 'category.Name' for row 0, column 4. For more information about this error, please see http://datatables.net/tn/4
+05:26pm - Delete:
 
+            string webRootPath = _hostEnvironment.WebRootPath;
+            var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
+            if (System.IO.File.Exists(imagePath))
+            {
+                System.IO.File.Delete(imagePath);
+            }
+
+            on ProductController.cs
+
+05:27pm - Still trying to figure out Why there is no category.Name in product.js ??
+05:49pm - OK... It is category.name, in lowercase, I can believe I fixed it...
+06:00pm - Now I can added image and make display in the home page.
